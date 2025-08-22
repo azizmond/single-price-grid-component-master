@@ -56,6 +56,21 @@ h2{
     font-weight: 400;
 }
 
+@media (min-width: 760px){
+    .community{
+        margin-top: 200px;
+        width: 40%;
+    }
+}
+
+/*CONTAINER*/
+@media (min-width: 760px){
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
 /*SUBSCRIPTION*/
 .subscription{
     background-color: var(--first-color);
@@ -94,6 +109,17 @@ h2{
     line-height: 6rem;
 }
 
+@media (min-width: 760px){
+    .subscription{
+        margin: 0;
+        width: 20%;
+    }
+
+    .button-subscription{
+        width: 80%;
+    }
+}
+
 /*WHY US*/
 .why-us{
     background-color: var(--first-alpha-color);
@@ -107,6 +133,13 @@ h2{
     font-weight: 300;
     line-height: 1.7rem;
     margin-top: 25px;
+}
+
+@media (min-width: 760px){
+    .why-us{
+        margin: 0;
+        width: 20%;
+    }
 }
 
 /*FOOTER*/
@@ -124,4 +157,10 @@ h2{
     color: hsl(228, 45%, 44%);
     font-size: 12px;
     font-weight: 700;
+}
+
+@media (min-width: 760px){
+    .attribution{
+        margin-top: 100px;
+    }
 }
